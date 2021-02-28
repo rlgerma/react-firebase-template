@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
 
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
@@ -19,9 +18,7 @@ const Account = () => {
       </Row>
       <Row className='text-center'>
         <Col lg={6}>Welcome, {authUser.email}</Col>
-        <Col lg={6}>
-          <Link to='/login'>Login</Link>
-        </Col>
+        <Col lg={6}></Col>
       </Row>
     </Container>
   );

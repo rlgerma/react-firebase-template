@@ -77,6 +77,7 @@ const getUserDocument = async (uid) => {
 
   await userRef.onSnapshot((snap) => {
     const user = snap.data();
+    sessionStorage.setItem("user", JSON.stringify(user));
     return {
       ...user,
     };
