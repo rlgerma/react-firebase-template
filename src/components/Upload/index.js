@@ -15,15 +15,11 @@ const UploadImage = () => {
   const [image, setImage] = useState("");
   const [progress, setProgress] = useState(0);
   const [upload, setUpload] = useState(false);
-
   const [err, setErr] = useState("");
   const triggerRef = useRef();
 
   const handleChange = (file) => {
     let user = auth.currentUser.uid;
-    if (user === "1234567890") {
-      return;
-    }
 
     file.lastModifiedDate = new Date();
     file.name = `${user}_ProfilePic`;

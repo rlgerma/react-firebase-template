@@ -13,7 +13,7 @@ const SignIn = () => {
   const { authUser } = useContext(UserContext);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
+  const [err, setErr] = useState("");
   const handleSignIn = (event, email, password) => {
     event.preventDefault();
     auth
@@ -22,6 +22,7 @@ const SignIn = () => {
         generateUserDocument(res.user);
       })
       .catch((error) => {
+        setErr(error.message);
         console.error("Error signing in ", error);
       });
   };
@@ -72,6 +73,9 @@ const SignIn = () => {
           </Button>
         </Form>
       </Card.Body>
+      <Card.Footer>
+        {err && <p className='text-center text-danger'>{err}</p>}
+      </Card.Footer>
     </Card>
   );
 };

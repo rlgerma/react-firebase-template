@@ -6,11 +6,15 @@ This is a template for getting a Create React App with Firebase up and running, 
 
 ## Design
 
-This template comes with Basic Firebase features connected into CRA such as Auth, Firestore, and Storage. Basic styling also included with React-Bootstrap. Three demo pages are included as well - Home, Login, Account.
+This template comes with Basic Firebase features connected into CRA such as Auth, Firestore, and Storage.
+
+- Basic styling also included with React-Bootstrap.
+- Three demo pages are included as well - Home, Login, Account.
 
 ## Instructions
 
-You will need to create a Firebase account (allow sign in with email/password in authentication) & setup Firestore (create "users" collection) prior to these steps. [https://console.firebase.google.com/]
+You will need to create a Firebase project, and allow sign in with email/password in authentication.
+Setup Firestore and create "users" collection prior to these steps. [https://console.firebase.google.com/]
 
 1. `yarn`
 
@@ -27,3 +31,7 @@ You will need to create a Firebase account (allow sign in with email/password in
 7. Add Firebase config to `.env`
 
 8. `yarn start`
+
+9. Write your code
+
+10. `yarn deploy`
