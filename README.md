@@ -10,7 +10,7 @@ This template comes with Basic Firebase features connected into CRA such as Auth
 
 ## Instructions
 
-You will need to create a Firebase account (allow sign in with email/password in authentication) & setup Firestore (create "users" collection) prior to these steps. [Visit Firebase]("https://console.firebase.google.com/)
+You will need to create a Firebase account (allow sign in with email/password in authentication) & setup Firestore (create "users" collection) prior to these steps. [https://console.firebase.google.com/]
 
 1. `yarn`
 
