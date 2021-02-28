@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { auth } from "../../firebase";
 import { UserContext } from "../../firebase/context";
 
+// react-bootstrap
 import Nav from "react-bootstrap/Nav";
 
 const NavBar = () => {

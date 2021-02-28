@@ -1,16 +1,14 @@
 import React, { useState, useContext } from "react";
 import { Redirect } from "react-router-dom";
 import { UserContext } from "../../firebase/context";
+import { auth } from "../../firebase";
+import { generateUserDocument } from "../../firebase/context";
 
 // react-bootstrap
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
-// firebase
-import { auth } from "../../firebase";
-import { generateUserDocument } from "../../firebase/context";
 
-// exported component
 const SignIn = () => {
   const { authUser } = useContext(UserContext);
   const [email, setEmail] = useState("");

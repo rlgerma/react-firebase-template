@@ -1,17 +1,14 @@
 import React, { useState, useContext } from "react";
 import { Redirect } from "react-router-dom";
-// Firebase
 import { auth } from "../../firebase";
 import { generateUserDocument } from "../../firebase/context";
 import { UserContext } from "../../firebase/context";
-// react bootstrap
 
+// react bootstrap
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-
 import Form from "react-bootstrap/Form";
 
-// exported component
 const SignUp = () => {
   const { authUser } = useContext(UserContext);
   const [email, setEmail] = useState("");
