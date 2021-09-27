@@ -7,7 +7,7 @@
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.1.9",
     "bootstrap": "^5.0.2",
-    "firebase": "^8.2.9",
+    "firebase": "^9.1.0",
     "react": "^16.14.0",
     "react-bootstrap": "^1.5.0",
     "react-bootstrap-image-cropper": "^0.3.0",
