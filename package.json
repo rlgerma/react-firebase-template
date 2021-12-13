@@ -12,7 +12,7 @@
     "react-bootstrap": "^1.5.0",
     "react-bootstrap-image-cropper": "^0.3.0",
     "react-dom": "^17.0.1",
-    "react-router": "^5.2.0",
+    "react-router": "^6.1.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "source-map-explorer": "^2.5.0",
